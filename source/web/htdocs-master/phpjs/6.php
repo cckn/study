@@ -1,0 +1,36 @@
+<!-- 웹에플리케이션 만들기 - JS, PHP 프로그래밍 8 : 조건문 -->
+
+<script type="text/javascript">
+  result = 1==2
+</script>
+<?php
+  $result = 1==1
+ ?>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>JavaScript</h1>
+    <script type="text/javascript">
+      if (result) {
+        document.write("참");
+      }
+      else {
+        document.write("거짓")
+      }
+    </script>
+    <h1>php</h1>
+    <?php
+      if ($result) {
+        echo "참";
+      } else {
+        echo "거짓";
+      }
+
+     ?>
+  </body>
+</html>
